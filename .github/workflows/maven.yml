@@ -3,6 +3,7 @@
 name: Java Maven Build & Publish Artifact
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
